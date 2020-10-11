@@ -16,10 +16,3 @@ next.addEventListener("click", function (e) {
     color_name.innerText =arr[random].bgcolor;
 })
 
-copy.addEventListener("click", copyText)
-
-function copyText(){
-    let text = color_name.innerText;
-    alert("copied!")
-}
-
