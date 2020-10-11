@@ -1,7 +1,6 @@
 body{
     display: flex;justify-content: center;align-items: center;
     height: 100vh;flex-direction: column;
-    background-color: rgb(219, 61, 61);
   }
   
   .color {
@@ -11,8 +10,6 @@ body{
     display: flex;justify-content: center;
     align-items: center;flex-direction: column;
     border-radius: 10px;
-    background-color: rgb(219, 61, 61);
-    border: 2px solid rgb(219, 61, 61);
     box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
   }
   
