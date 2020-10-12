@@ -16,3 +16,14 @@ next.addEventListener("click", function (e) {
     color_name.innerText =arr[random].bgcolor;
 })
 
+copy.addEventListener("click",function(){
+    let copy_text = color_name.innerText;
+    let myData = document.createElement("textarea");
+    document.body.appendChild(myData);
+    myData.value = copy_text;
+    myData.select();
+    document.execCommand("copy");
+    document.body.removeChild(myData);
+    alert("copied!");
+})
+
